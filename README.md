@@ -1,7 +1,8 @@
 # federated_learning
-Introduction
+Introduction: 
 This repository contains a Federated Learning-based approach to predicting diseases from symptom data. The model utilizes TensorFlow Federated (TFF) to train a decentralized neural network across multiple simulated clients while maintaining data privacy. Additionally, it includes comparisons with traditional machine learning algorithms such as Random Forest, Decision Tree, K-Nearest Neighbors, and Naive Bayes to highlight the advantages of Federated Learning.
-Key Features
+
+Key Features:
 Federated Learning with TensorFlow Federated (TFF):
 
 Implements a federated averaging algorithm to train a deep neural network.
@@ -54,8 +55,8 @@ Google Colab (for running the code in an interactive environment)
 Dependencies
 Install the required Python packages using pip:
 
-bash
-Copy code
+bash:- 
+Copy code:
 pip install tensorflow tensorflow-federated scikit-learn matplotlib seaborn imbalanced-learn
 Usage
 Step 1: Upload Dataset
@@ -69,7 +70,7 @@ Step 3: Interactive Prediction
 Input symptom data interactively to predict a disease using the Federated Learning model.
 Step 4: Visualize Results
 Review the evaluation metrics and performance comparison charts.
-Evaluation Metrics
+Evaluation Metrics: 
 The following metrics are calculated for all models:
 Accuracy
 F1 Score
